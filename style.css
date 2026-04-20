@@ -70,15 +70,22 @@ a:hover {
 }
 
 .nav {
-    margin-top: 40px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .nav a {
-    margin: 0 5px;
-    padding: 8px 14px;
+    padding: 8px 10px;
     border: 2px solid #504945;
     border-radius: 8px;
     background: #252525;
+
+    flex: 0 1 calc(33% - 10px); 
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .nav a:hover {
