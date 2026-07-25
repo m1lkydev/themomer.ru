@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Terminus (TTF)";
-    src: url("/Terminus.ttf") format("truetype");
+    font-family: "mononoki Regular";
+    src: url("/mononoki.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
     margin: 0;
-    font-family: "Terminus (TTF)", monospace;
+    font-family: "mononoki Regular", monospace;
     background-color: #1d2021;
     color: #ebdbb3;
 }
@@ -50,6 +50,13 @@ a:hover {
 .avatar {
     width: 115px;
     border-radius: 20px;
+}
+
+.fetch {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 hr {
