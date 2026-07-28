@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    color: #fabd2f;
+    color: #ebdbb2;
     text-decoration: none;
     font-weight: normal;
 }
@@ -30,7 +30,7 @@ a:hover {
 .container {
     max-width: 1000px;
     margin: auto;
-    padding: 50px 20px;
+    padding: 20px 10px;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .about {
-    text-align: center;
+    text-align: left;
     max-width: 500px;
     flex: 1;
 }
@@ -59,10 +59,10 @@ a:hover {
     margin: 0 auto;
 }
 
-hr {
-    color: #ebdbb3;
-    width: 90%;
-}
+/*hr {
+    color: #ebdbb2;
+    width: 95%;
+}*/
 
 @media (max-width: 768px) {
     .container {
@@ -82,7 +82,7 @@ hr {
 
     .about {
         max-width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .cards {
